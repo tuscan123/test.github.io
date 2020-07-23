@@ -1,0 +1,205 @@
+/*------------------------------------------------
+File:		   linen-calculator.css
+Description:   Styles for Linen Calculator Guide.
+-------------------------------------------------*/
+
+form#calculatorForm { text-align: center; }
+
+	#calculatorForm p { 
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		color: #202020;
+	}
+
+	#calculatorForm div {
+		background-color: #fff8e5;
+		text-align: center;
+		margin: 0 auto 2px;
+		padding: 10px 0;
+	}
+	
+	#calculatorForm table,
+	#calculatorForm div { width: 400px; }
+	
+	#calculatorForm em {
+		font-style: normal;
+		font-size: 14px;
+		background-color: #fff;
+		border: 2px solid #a65e00;
+		padding: 1px 4px;
+	}
+
+	#calculatorForm .instruction {
+		font-size: 10px;
+		color: #a65e00;
+		font-weight: normal;
+	}
+
+	#calculatorForm table {
+		background-color: #fff8e5;
+		text-align: center;
+		margin: 0 auto 2px;
+	}
+	
+		#calculatorForm th {
+			color: #a65e00;
+			font-size: 13px;
+			font-weight: bold;
+			padding: 5px 10px;
+			text-align: left;
+		}
+	
+		#calculatorForm td { 
+			text-align: center;
+			padding: 0 10px 10px;
+			color: #202020;
+		}
+		
+		#calculatorForm label img { 
+			display: block;
+			margin: 3px auto 0;
+		}
+		
+		#calculatorForm td span {
+			display: block;
+			font-size: 11px;
+			padding-left: 14px;
+		}
+				
+		#calculatorForm input {
+			width: 70px;
+			height: 20px;
+			border: 1px solid #939392;
+			font-size: 12px;
+			color: #202020;
+			padding: 1px 2px 0;
+			margin: 3px auto 0;
+			text-align: center;
+		}
+		
+		#calculatorForm #table_shape input {
+			display: block;
+			margin: 0 auto;
+			outline: none;
+			width: auto;
+		}
+		
+		#calculatorForm #final { background-color: #F2E0AE; }
+		
+		#calculatorForm #final label { font: bold 14px Arial, sans-serif; }
+		
+		#calculatorForm .lefty { padding-left: 55px; }
+		#calculatorForm .righty { padding-right: 55px; }
+		#calculatorForm td input.noinput {
+			background-color: transparent;
+			border: 0;
+			width: 30px;
+			text-align: right;
+			font-size: 14px;
+		}
+
+
+/* form#calculatorForm { text-align: center; }
+
+	table#calculator {
+	    background-color: #fff8e5;
+		border-collapse: separate;
+		width: 300px;
+		margin: 30px auto 0;
+		table-layout: fixed;
+		clear: both;
+		text-align: left;
+	}
+	
+		#calculator th,
+		#calculator td {
+			border-left: 1px solid #fff;
+			border-right: 1px solid #fff;
+			vertical-align: middle;
+		}
+	
+		#calculator th {
+		    font-weight: normal;
+		    text-align: center;
+			text-align: left;
+			padding: 5px 10px;
+		}
+		
+			#calculator tr.toprow th {
+				color: #a65e00;
+				text-align: center;
+				text-indent: 0;
+				padding: 0;
+			}
+		
+			#calculator th span {
+				display: block;
+				font-size: 11px;
+			}
+			
+			th.logo { width: 263px; }
+			
+				th.logo img { margin: 10px 10px 0; }
+				
+				.logo p {
+					padding: 0;
+					font-size: 10px;
+					margin: 2px auto 10px;
+					text-align: center;
+				}
+		
+		.section th,
+		.section td { border-bottom: 2px solid #fff; }
+		
+		.subtotals th,
+		.subtotals td { background-color: #f2e0ae; }
+		
+		#calculator .savings th,
+		#calculator .savings td { 
+			background-color: #d9c58d;
+			font: bold 16px Arial, sans-serif;
+			text-transform: capitalize;
+		}
+		
+		#calculator tr.ancillary th { text-indent: 10px; }
+		#calculator tr.ancillary td,
+		#calculator tr.ancillary th { padding: 2px 10px 3px; }
+		
+		#calculator td {
+		    text-align: center;
+		    font-size: 12px;
+		    color: #202020;
+			padding: 5px 10px;
+			background-image: url(/site_images/linen-like/dollaz.gif);
+			background-position: 40px center;
+			background-repeat: no-repeat;
+		}
+		
+		#calculator td.quan { background-image: none; }
+		
+			#calculator td input {
+				width: 45px;
+				height: 20px;
+				border: 1px solid #939392;
+				font-size: 12px;
+				color: #202020;
+				text-align: right;
+				padding: 1px 2px 0;
+				margin-left: 15px;
+			}
+			
+				#calculator td input.noinput {
+					background-color: transparent;
+				    border: 0;
+				}
+				
+			#calculator .subtotals input { width: 60px; margin: 0; }
+			
+			#calculator input#profit3 { 
+				width: 80px;
+				font: bold 16px Arial, sans-serif;
+				margin: 0;
+			}
+
+ */
